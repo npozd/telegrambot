@@ -1,0 +1,474 @@
+[
+  {
+    "name": "Aleksandr Shatunov",
+    "car_number": "NAM779"
+  },
+  {
+    "name": "Aleksei Maslakov",
+    "car_number": "NAM384"
+  },
+  {
+    "name": "Aleksei Panaetov",
+    "car_number": "NAK689"
+  },
+  {
+    "name": "Alena Perminova",
+    "car_number": "NAK574"
+  },
+  {
+    "name": "Alexander Kolesov",
+    "car_number": "NAK837"
+  },
+  {
+    "name": "Alexander Kovalev",
+    "car_number": "NAH572"
+  },
+  {
+    "name": "Alexandr Shtanko",
+    "car_number": "NAH576"
+  },
+  {
+    "name": "Alexey Dusheyko",
+    "car_number": "NAK745"
+  },
+  {
+    "name": "Alexey Firsov",
+    "car_number": "NAK019"
+  },
+  {
+    "name": "Alexey Kolmakov",
+    "car_number": "NAM976"
+  },
+  {
+    "name": "Alexey Nikitin",
+    "car_number": "NAM435"
+  },
+  {
+    "name": "Alexey Olkov",
+    "car_number": "NAM949"
+  },
+  {
+    "name": "Alexey Prykin",
+    "car_number": "NAK902"
+  },
+  {
+    "name": "Alexey Shevchenko",
+    "car_number": "NAM607"
+  },
+  {
+    "name": "Alexey Shimulsky",
+    "car_number": "NAK763"
+  },
+  {
+    "name": "Alexis Alichanidis",
+    "car_number": "NAK230"
+  },
+  {
+    "name": "Ananina Nadia",
+    "car_number": "NAM252"
+  },
+  {
+    "name": "Anastasija Ryckova",
+    "car_number": "NAM922"
+  },
+  {
+    "name": "Anatoliy Puzyrevskiy",
+    "car_number": "NAM601"
+  },
+  {
+    "name": "Andreea-Simona Anghel",
+    "car_number": "NAK380"
+  },
+  {
+    "name": "Andrei Bulat",
+    "car_number": "NAM675"
+  },
+  {
+    "name": "Andrei Ezhov",
+    "car_number": "NAM634"
+  },
+  {
+    "name": "Andrei Hameza",
+    "car_number": "NAM044"
+  },
+  {
+    "name": "Andrei Nikitsin",
+    "car_number": "NAM996"
+  },
+  {
+    "name": "Andrey Novikov",
+    "car_number": "NAK768"
+  },
+  {
+    "name": "Andria Kyriakou",
+    "car_number": "NAK426"
+  },
+  {
+    "name": "Anton Gladkovsky",
+    "car_number": "NAM024"
+  },
+  {
+    "name": "Anton Kuzyakin",
+    "car_number": "NAK373"
+  },
+  {
+    "name": "Anton Lukashenko",
+    "car_number": "NAM187"
+  },
+  {
+    "name": "Arina Radaeva",
+    "car_number": "NAK153"
+  },
+  {
+    "name": "Artem Antipov",
+    "car_number": "NAH365"
+  },
+  {
+    "name": "Artem Sukhoroslov",
+    "car_number": "NAM869"
+  },
+  {
+    "name": "Ayan Suvan-ool",
+    "car_number": "NAM890"
+  },
+  {
+    "name": "Danylo Matiushenko",
+    "car_number": "NAK239"
+  },
+  {
+    "name": "David Dzhanyan",
+    "car_number": "NAM325"
+  },
+  {
+    "name": "David Moyes",
+    "car_number": "NAK987"
+  },
+  {
+    "name": "Denis Stepichev",
+    "car_number": "NAM136"
+  },
+  {
+    "name": "Despo Sokratus",
+    "car_number": "NAM934"
+  },
+  {
+    "name": "Dmitrii Guselnikov",
+    "car_number": "NAM619"
+  },
+  {
+    "name": "Dmitrii Shustov",
+    "car_number": "NAM522"
+  },
+  {
+    "name": "Dmitry Grushin",
+    "car_number": "NAK612"
+  },
+  {
+    "name": "Dmitry Kryukov",
+    "car_number": "NAK292"
+  },
+  {
+    "name": "Dmitry Loparev",
+    "car_number": "NAM866"
+  },
+  {
+    "name": "Dzmitry Sobal",
+    "car_number": "NAH989"
+  },
+  {
+    "name": "Eduard Dulich",
+    "car_number": "NAK226"
+  },
+  {
+    "name": "Elena Krutova",
+    "car_number": "NAK460"
+  },
+  {
+    "name": "Elena Sukhova",
+    "car_number": "NAK522"
+  },
+  {
+    "name": "Elpiniki Karra",
+    "car_number": "NAK533"
+  },
+  {
+    "name": "Eric McLean",
+    "car_number": "NAM848"
+  },
+  {
+    "name": "Evgeniy Protopopov",
+    "car_number": "NAM892"
+  },
+  {
+    "name": "Evgeny Zuev",
+    "car_number": "NAH598"
+  },
+  {
+    "name": "Georgia Fetta",
+    "car_number": "NAK409"
+  },
+  {
+    "name": "Georgii Bartenev",
+    "car_number": "NAH921"
+  },
+  {
+    "name": "Igor Churmeev",
+    "car_number": "NAK059"
+  },
+  {
+    "name": "Igor Makarov",
+    "car_number": "NAK572"
+  },
+  {
+    "name": "Igor Matcko",
+    "car_number": "NAM469"
+  },
+  {
+    "name": "Ildar Migranov",
+    "car_number": "NAH963"
+  },
+  {
+    "name": "Ilya Samartsev",
+    "car_number": "NAH509"
+  },
+  {
+    "name": "Ilya Sayakhov",
+    "car_number": "NAK148"
+  },
+  {
+    "name": "Irina Kondratyeva",
+    "car_number": "NAM254"
+  },
+  {
+    "name": "Irina Samaryan",
+    "car_number": "NAK596"
+  },
+  {
+    "name": "Jennifer Piao",
+    "car_number": "NAM885"
+  },
+  {
+    "name": "Kiril Davydov",
+    "car_number": "NAM425"
+  },
+  {
+    "name": "Kirill Karakozov",
+    "car_number": "NAM414"
+  },
+  {
+    "name": "Konstantin Paladi",
+    "car_number": "NAK376"
+  },
+  {
+    "name": "Konstantin Tereshin",
+    "car_number": "NAM586"
+  },
+  {
+    "name": "Konstantin Tsukanov",
+    "car_number": "NAK133"
+  },
+  {
+    "name": "Ksenia Сhistova",
+    "car_number": "NAK655"
+  },
+  {
+    "name": "Kyriakos Mastoroudis",
+    "car_number": "NAK060"
+  },
+  {
+    "name": "Liutsiia Nazipova",
+    "car_number": "NAK662"
+  },
+  {
+    "name": "Lucia Potocnakova",
+    "car_number": "NAK637"
+  },
+  {
+    "name": "Maksim Stanovov",
+    "car_number": "NAH675"
+  },
+  {
+    "name": "Marina Spanou",
+    "car_number": "NAK132"
+  },
+  {
+    "name": "Martin Johan Thorvaldsson",
+    "car_number": "NAK846"
+  },
+  {
+    "name": "Matvey Marinin",
+    "car_number": "NAH291"
+  },
+  {
+    "name": "Maxim Popov",
+    "car_number": "NAM088"
+  },
+  {
+    "name": "Michael Isaev",
+    "car_number": "NAM824"
+  },
+  {
+    "name": "Michail Barkov",
+    "car_number": "NAM716"
+  },
+  {
+    "name": "Mikhail Lutsenko",
+    "car_number": "NAK501"
+  },
+  {
+    "name": "Mikhail Voronkov",
+    "car_number": "NAK524"
+  },
+  {
+    "name": "Natalya Mirza",
+    "car_number": "NAK391"
+  },
+  {
+    "name": "Nikita Khristinin",
+    "car_number": "NAM847"
+  },
+  {
+    "name": "Nikita Pozdnyakov",
+    "car_number": "NAK773"
+  },
+  {
+    "name": "Nikolay Levashkin",
+    "car_number": "NAK821"
+  },
+  {
+    "name": "Oleksii Kokhanov",
+    "car_number": "NAK208"
+  },
+  {
+    "name": "Olga Kraeva",
+    "car_number": "NAK016"
+  },
+  {
+    "name": "Olga Mineeva",
+    "car_number": "NAM914"
+  },
+  {
+    "name": "Pavel Fokin",
+    "car_number": "NAK415"
+  },
+  {
+    "name": "Pavel Kulakov",
+    "car_number": "NAM680"
+  },
+  {
+    "name": "Pavel Laptev",
+    "car_number": "NAK167"
+  },
+  {
+    "name": "Polina Koroleva",
+    "car_number": "NAK488"
+  },
+  {
+    "name": "Roman Suchkov",
+    "car_number": "NAK166"
+  },
+  {
+    "name": "Roman Tcopin",
+    "car_number": "NAM537"
+  },
+  {
+    "name": "Semyon Chaunin",
+    "car_number": "NAK497"
+  },
+  {
+    "name": "Sergei Kalashnikov",
+    "car_number": "NAK227"
+  },
+  {
+    "name": "Sergei Sitishev",
+    "car_number": "NAH647"
+  },
+  {
+    "name": "Sergey Kalinin",
+    "car_number": "NAK272"
+  },
+  {
+    "name": "Sergey Kochergin",
+    "car_number": "NAK438"
+  },
+  {
+    "name": "Sergey Konkov",
+    "car_number": "NAM548"
+  },
+  {
+    "name": "Sergey Mokhin",
+    "car_number": "NAH284"
+  },
+  {
+    "name": "Sergey Tomilov",
+    "car_number": "NAM285"
+  },
+  {
+    "name": "Sofeeya Suksem",
+    "car_number": "NAM349"
+  },
+  {
+    "name": "Soteris Hadjidemetriou",
+    "car_number": "NAK493"
+  },
+  {
+    "name": "Stanislav Leontev",
+    "car_number": "NAK495"
+  },
+  {
+    "name": "Stanislav Sharakhin",
+    "car_number": "NAK423"
+  },
+  {
+    "name": "Stathis Kyriakides",
+    "car_number": "NAK664"
+  },
+  {
+    "name": "Stepan Volkov",
+    "car_number": "NAH523"
+  },
+  {
+    "name": "Tatiana Skuridina",
+    "car_number": "NAM186"
+  },
+  {
+    "name": "Tatsiana Krutautsova",
+    "car_number": "NAH366"
+  },
+  {
+    "name": "Timea Benczik",
+    "car_number": "NAH348"
+  },
+  {
+    "name": "Valerya Ovcharenko",
+    "car_number": "MNA787"
+  },
+  {
+    "name": "Vaso Mavromustaki",
+    "car_number": "NAK544"
+  },
+  {
+    "name": "Viktoria Nazaretova",
+    "car_number": "NAM432"
+  },
+  {
+    "name": "Vladimir Drobov",
+    "car_number": "NAK516"
+  },
+  {
+    "name": "Vladimir Tatarinov",
+    "car_number": "NAM391"
+  },
+  {
+    "name": "Vyacheslav Skvortsov",
+    "car_number": "NAK532"
+  },
+  {
+    "name": "Yaroslav Rapoport",
+    "car_number": "NAK622"
+  },
+  {
+    "name": "Yevhen Moskalenko",
+    "car_number": "NAM082"
+  }
+]

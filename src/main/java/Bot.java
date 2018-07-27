@@ -8,7 +8,7 @@ import org.telegram.telegrambots.api.objects.replykeyboard.buttons.KeyboardButto
 import org.telegram.telegrambots.api.objects.replykeyboard.buttons.KeyboardRow;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.exceptions.TelegramApiException;
-
+import com.mongodb.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,11 +20,25 @@ public class Bot extends TelegramLongPollingBot {
      */
     @Override
     public void onUpdateReceived(Update update) {
-        if (update.hasMessage() && update.getMessage().hasText()) {
-        String message = update.getMessage().getText();
+        if(update.hasMessage()) {
+            ThreadClass thread = new ThreadClass(update.getMessage());
+        } else  if(update.hasCallbackQuery()) {
+            AnswerCallbackThread answerThread = new AnswerCallbackThread(update.getCallbackQuery());
+        }
+
+
+
+
+//        if (update.hasMessage() && update.getMessage().hasText()) {
+//        String message = update.getMessage().getText();
+//        String chatId = update.getMessage().getChatId().toString();
+//
+//  //      sendMsg(chatId, MongoDriver.findMatchesInDb(message));
 //        sendMsg(update.getMessage().getChatId().toString(), message);
-        sendMsg(update.getMessage().getChatId().toString(), message + "\n" + "Order to " + update.getMessage().getFrom().getFirstName() + " " + update.getMessage().getFrom().getLastName() + " In Progress");
-    }
+  //      sendMsg(update.getMessage().getChatId().toString(), message + "\n" + "Order to " + update.getMessage().getFrom().getFirstName() + " " + update.getMessage().getFrom().getLastName() + " In Progress");
+
+
+        }
     }
 
     /**
@@ -37,8 +51,9 @@ public class Bot extends TelegramLongPollingBot {
         sendMessage.enableMarkdown(true);
         sendMessage.setChatId(chatId);
         sendMessage.setText(s);
-
- //       setButtons(sendMessage);
+        setInline();
+        setButtons(sendMessage);
+        answerCallbackQuery("17",s);
 
         try {
             execute(sendMessage);
@@ -79,16 +94,82 @@ public class Bot extends TelegramLongPollingBot {
         // Первая строчка клавиатуры
         KeyboardRow keyboardFirstRow = new KeyboardRow();
         // Добавляем кнопки в первую строчку клавиатуры
-        keyboardFirstRow.add(new KeyboardButton("Привет"));
+        keyboardFirstRow.add(new KeyboardButton("Building, construction"));
 
         // Вторая строчка клавиатуры
         KeyboardRow keyboardSecondRow = new KeyboardRow();
         // Добавляем кнопки во вторую строчку клавиатуры
-        keyboardSecondRow.add(new KeyboardButton("Помощь"));
+        keyboardSecondRow.add(new KeyboardButton("Childcare"));
+
+        // Вторая строчка клавиатуры
+        KeyboardRow keyboard3Row = new KeyboardRow();
+        // Добавляем кнопки во вторую строчку клавиатуры
+        keyboard3Row.add(new KeyboardButton("Clothing"));
+
+        KeyboardRow keyboard4Row = new KeyboardRow();
+        // Добавляем кнопки во вторую строчку клавиатуры
+        keyboard4Row.add(new KeyboardButton("Design, photo, copy, scan, print"));
+
+        KeyboardRow keyboard5Row = new KeyboardRow();
+        // Добавляем кнопки во вторую строчку клавиатуры
+        keyboard5Row.add(new KeyboardButton("Entertainment"));
+
+        KeyboardRow keyboard6Row = new KeyboardRow();
+        // Добавляем кнопки во вторую строчку клавиатуры
+        keyboard6Row.add(new KeyboardButton("Finance, legal"));
+
+        KeyboardRow keyboard7Row = new KeyboardRow();
+        // Добавляем кнопки во вторую строчку клавиатуры
+        keyboard7Row.add(new KeyboardButton("Food, drink"));
+
+        KeyboardRow keyboard8Row = new KeyboardRow();
+        // Добавляем кнопки во вторую строчку клавиатуры
+        keyboard8Row.add(new KeyboardButton("IT, computers, telecoms"));
+
+        KeyboardRow keyboard9Row = new KeyboardRow();
+        // Добавляем кнопки во вторую строчку клавиатуры
+        keyboard9Row.add(new KeyboardButton("Pets"));
+
+        KeyboardRow keyboard10Row = new KeyboardRow();
+        // Добавляем кнопки во вторую строчку клавиатуры
+        keyboard10Row.add(new KeyboardButton("Property, maintenance"));
+
+        KeyboardRow keyboard11Row = new KeyboardRow();
+        // Добавляем кнопки во вторую строчку клавиатуры
+        keyboard11Row.add(new KeyboardButton("Transport, moving, repairing"));
+
+        KeyboardRow keyboard12Row = new KeyboardRow();
+        // Добавляем кнопки во вторую строчку клавиатуры
+        keyboard12Row.add(new KeyboardButton("Travel, tourism"));
+
+        KeyboardRow keyboard13Row = new KeyboardRow();
+        // Добавляем кнопки во вторую строчку клавиатуры
+        keyboard13Row.add(new KeyboardButton("Tuition, classes"));
+
+        KeyboardRow keyboard14Row = new KeyboardRow();
+        // Добавляем кнопки во вторую строчку клавиатуры
+        keyboard14Row.add(new KeyboardButton("Weddings"));
+
+        KeyboardRow keyboard15Row = new KeyboardRow();
+        // Добавляем кнопки во вторую строчку клавиатуры
+        keyboard15Row.add(new KeyboardButton("Other"));
 
         // Добавляем все строчки клавиатуры в список
         keyboard.add(keyboardFirstRow);
         keyboard.add(keyboardSecondRow);
+        keyboard.add(keyboard4Row);
+        keyboard.add(keyboard5Row);
+        keyboard.add(keyboard6Row);
+        keyboard.add(keyboard7Row);
+        keyboard.add(keyboard8Row);
+        keyboard.add(keyboard9Row);
+        keyboard.add(keyboard10Row);
+        keyboard.add(keyboard11Row);
+        keyboard.add(keyboard12Row);
+        keyboard.add(keyboard13Row);
+        keyboard.add(keyboard14Row);
+        keyboard.add(keyboard15Row);
+
         // и устанваливаем этот список нашей клавиатуре
         replyKeyboardMarkup.setKeyboard(keyboard);
     }
@@ -114,4 +195,6 @@ public class Bot extends TelegramLongPollingBot {
             e.printStackTrace();
         }
     }
+
+
 }
